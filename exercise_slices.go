@@ -24,7 +24,7 @@ func GradientPic(dx, dy int) [][]uint8 {
 		return matrix
 }
 
-func run() {
+func ShowPic() {
 		pic.Show(GradientPic)
 }
 

@@ -17,7 +17,7 @@ func Sqrt(x float64) float64 {
 	return z
 }
 
-func run() {
+func RunSqrt() {
 	for i := 1; i <= 10; i++ {
 		fmt.Printf("%v Squared: Guess %v,", i, Sqrt(float64(i)))
 		fmt.Printf(" Actual %v\n", math.Sqrt(float64(i)))
