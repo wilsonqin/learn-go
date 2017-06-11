@@ -1,5 +1,5 @@
 package main
 
 func main(){
-	RunWordCount()
+	Run_fibonacci()
 }
