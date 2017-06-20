@@ -1,5 +1,5 @@
 package main
 
 func main(){
-	Run_stringer()
+	Run_sqrt_errors()
 }
