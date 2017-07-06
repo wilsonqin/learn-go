@@ -12,7 +12,7 @@ type rot13Reader struct {
 }
 
 func (r13 rot13Reader) Read(b []byte) (int, error) {
-    readAmt, error := r13.r.Read(b)
+    readAmt, err := r13.r.Read(b)
     
     for i := 0; i < readAmt; i++ {
         s := rune(b[i])
@@ -30,7 +30,7 @@ func (r13 rot13Reader) Read(b []byte) (int, error) {
         }
     }
     
-    return len(b), error
+    return len(b), err
 }
 
 func RunRot13Reader() {
