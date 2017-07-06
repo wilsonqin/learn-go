@@ -1,5 +1,5 @@
 package main
 
 func main(){
-	RunMyReader()
+	RunRot13Reader()
 }
